@@ -1,0 +1,40 @@
+body{
+	background-image: url(images/bg2.jpg);
+}
+
+.main{
+	border: 5px darkgreen solid;
+	background: white;
+	margin: 0 10% 0 10%;
+}
+
+.title-bl{
+	border: 5px red solid;
+	text-align: right;
+}
+
+.title-bl h2{
+	border: 5px orange solid;
+}
+
+.first-sec, .second-sec{
+	border: 5px blue solid;
+	background: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.main img{
+	float: right;
+}
+
+.date-bl{
+	border: 5px purple solid;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
